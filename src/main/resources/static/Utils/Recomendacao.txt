@@ -1,0 +1,9 @@
+arquivos do  curso:
+	https://drive.google.com/open?id=1NK8gnYNE71GOX1PbBaY321W_WsFEC6Kr
+
+
+DUMP:
+ cp forum.sql mysql-dockerized:/forum.sql
+ exec -it mysql-dockerized bash
+mysql -u root fj27_spring < forum.sql
+
